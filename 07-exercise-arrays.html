@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <script>
+            const prices = [1.19, 3.99, 4.59, 4.90, 1.49, 1.49, 8.50, 8.95, 4.63]
+            let total = 0
+            prices.forEach( (value, index, array) => {
+                total += value
+            })
+            const netto = total * 1.21
+            console.log(`Totale kosten van alle boodschappen is: \u20AC${netto.toFixed(2)}`)
+        </script>
+    </head>
+</html>
