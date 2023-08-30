@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script>
+            const isEven = (x) => {
+                let modulus = x % 2
+                if(modulus == 0) {
+                    return(true)
+                } else {
+                    return(false)
+                }
+            }
+
+            let i = 1
+            let total = 0
+            while( i <= 100) {
+                if(isEven(i)) {
+                    console.log(`${i} is even.`)
+                    total += i
+                }
+                i++
+            }
+
+            console.log(`The total of all even numbers under 100 is: ${total} `)
+
+            
+        </script>
+    </head>
+</html>
